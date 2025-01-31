@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.grocery-category {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h2 {
+    background-color: #ccc;
+    padding: 5px;
+    width: 100%
+}
+
+.sub-category {
+    background-color: #e0e0e0;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    flex: 1;
+    flex-direction: column;
+}
+
+h3 {
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+img {
+    display: block;
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+}
